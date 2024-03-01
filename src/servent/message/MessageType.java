@@ -1,0 +1,5 @@
+package servent.message;
+
+public enum MessageType {
+	NEW_NODE, WELCOME, SORRY, UPDATE, POISON, TOKEN, PING, PONG, JOINED, UPDATE_CHORD, PULL_REQUEST, PULL_RESPONSE, REMOVE,
+}

@@ -1,0 +1,165 @@
+17:43:15 - Starting servent [cId: -59|ipA: localhost|lP: 1300]
+17:43:15 - Pausing for 20000 ms
+- MY CONTACT NODE IS 1000
+17:43:16 - Sending message [-59|localhost:1300|0||NEW_NODE|localhost:1000|-50]
+17:43:18 - Got message [-56|localhost:1200|7||WELCOME|localhost:1300|-59]
+- MY PREDECESSOR IS null
+- MY SUCCESSORS ARE [[cId: -56|ipA: localhost|lP: 1200], null, null, null, null, null]
+17:43:19 - Sending message [-59|localhost:1300|1||UPDATE|localhost:1200|-56]
+17:43:21 - Got message [-59|localhost:1300|23|localhost:1200,localhost:1100,localhost:1000|UPDATE|localhost:1300|-59]
+17:43:21 - Sending PING message to Predecessor[-59|localhost:1300|3|Pred|PING|localhost:1000|-50]
+17:43:21 - Sending PING message to Successor[-59|localhost:1300|4|Suc|PING|localhost:1200|-56]
+17:43:22 - Sending PING message to Predecessor after WEAK_TIMEOUT[-59|localhost:1300|3|Pred|PING|localhost:1000|-50]
+17:43:22 - Sending message [-59|localhost:1300|2||JOINED|localhost:1200|-56]
+17:43:22 - Sending message [-59|localhost:1300|4|Suc|PING|localhost:1200|-56]
+17:43:22 - Sending message [-59|localhost:1300|3|Pred|PING|localhost:1000|-50]
+17:43:23 - Sending message [-59|localhost:1300|3|Pred|PING|localhost:1000|-50]
+17:43:24 - Got message [-56|localhost:1200|12|Suc|PONG|localhost:1300|-59]
+17:43:24 - Got message [-50|localhost:1000|25|Pred|PONG|localhost:1300|-59]
+17:43:24 - Got message [-50|localhost:1000|26|Pred|PONG|localhost:1300|-59]
+17:43:25 - Got message [-56|localhost:1200|14|Pred|PING|localhost:1300|-59]
+17:43:25 - Sending PONG message [-59|localhost:1300|5|Pred|PONG|localhost:1200|-56]
+17:43:26 - Sending message [-59|localhost:1300|5|Pred|PONG|localhost:1200|-56]
+17:43:26 - Got message [-50|localhost:1000|27||TOKEN|localhost:1300|-59]
+17:43:27 - Got message [-56|localhost:1200|14|Pred|PING|localhost:1300|-59]
+17:43:27 - Sending PONG message [-59|localhost:1300|7|Pred|PONG|localhost:1200|-56]
+17:43:27 - Sending message [-59|localhost:1300|6||TOKEN|localhost:1200|-56]
+17:43:28 - Sending message [-59|localhost:1300|7|Pred|PONG|localhost:1200|-56]
+17:43:28 - Got message [-62|localhost:1400|28||NEW_NODE|localhost:1300|-59]
+17:43:30 - Got message [-50|localhost:1000|29||TOKEN|localhost:1300|-59]
+17:43:31 - Got message [-50|localhost:1000|31|Suc|PING|localhost:1300|-59]
+17:43:31 - Sending PONG message [-59|localhost:1300|9|Suc|PONG|localhost:1000|-50]
+17:43:31 - Sending message [-59|localhost:1300|8||WELCOME|localhost:1400|-62]
+17:43:31 - Sending message [-59|localhost:1300|9|Suc|PONG|localhost:1000|-50]
+17:43:32 - Sending PING message to Predecessor[-59|localhost:1300|10|Pred|PING|localhost:1400|-62]
+17:43:32 - Sending PING message to Successor[-59|localhost:1300|11|Suc|PING|localhost:1200|-56]
+17:43:32 - Sending message [-59|localhost:1300|11|Suc|PING|localhost:1200|-56]
+17:43:32 - Sending message [-59|localhost:1300|10|Pred|PING|localhost:1400|-62]
+17:43:33 - Got message [-62|localhost:1400|1||UPDATE|localhost:1300|-59]
+17:43:33 - Sending PING message to Predecessor after WEAK_TIMEOUT[-59|localhost:1300|10|Pred|PING|localhost:1400|-62]
+17:43:33 - Got message [-56|localhost:1200|17|Suc|PONG|localhost:1300|-59]
+17:43:33 - Got message [-62|localhost:1400|2|Pred|PONG|localhost:1300|-59]
+17:43:33 - Sending message [-62|localhost:1400|12|localhost:1300|UPDATE|localhost:1200|-56]
+17:43:34 - Sending message [-59|localhost:1300|10|Pred|PING|localhost:1400|-62]
+17:43:35 - Pausing for 15000 ms
+17:43:35 - Got message [-62|localhost:1400|3|Pred|PONG|localhost:1300|-59]
+17:43:37 - Got message [-56|localhost:1200|21|Pred|PING|localhost:1300|-59]
+17:43:37 - Sending PONG message [-59|localhost:1300|13|Pred|PONG|localhost:1200|-56]
+17:43:37 - Got message [-56|localhost:1200|21|Pred|PING|localhost:1300|-59]
+17:43:37 - Sending PONG message [-59|localhost:1300|14|Pred|PONG|localhost:1200|-56]
+17:43:38 - Got message [-62|localhost:1400|6|Suc|PING|localhost:1300|-59]
+17:43:38 - Sending PONG message [-59|localhost:1300|15|Suc|PONG|localhost:1400|-62]
+17:43:38 - Sending message [-59|localhost:1300|13|Pred|PONG|localhost:1200|-56]
+17:43:38 - Got message [-62|localhost:1400|5||JOINED|localhost:1300|-59]
+17:43:38 - Sending message [-59|localhost:1300|15|Suc|PONG|localhost:1400|-62]
+17:43:38 - Sending message [-59|localhost:1300|14|Pred|PONG|localhost:1200|-56]
+17:43:39 - Sending message [-59|localhost:1300|16||TOKEN|localhost:1200|-56]
+17:43:42 - Got message [-62|localhost:1400|7||UPDATE_CHORD|localhost:1300|-59]
+17:43:42 - File subDir\subDir2 stored successfully.
+17:43:42 - Sending inform message [-59|localhost:1300|17||UPDATE_CHORD|localhost:1200|-56]
+- STANJE NA CLOUD-u
+1:subDir\subDir2 -- [subDir\subDir2 {[subDir\subDir2\subDir2-File1.txt, subDir\subDir2\subDir2-File2.txt]}] - inside node: -50
+
+
+17:43:42 - Got message [-62|localhost:1400|8||UPDATE_CHORD|localhost:1300|-59]
+17:43:42 - File subDir\subDir2\subDir2-File1.txt stored successfully.
+17:43:42 - Sending inform message [-59|localhost:1300|18||UPDATE_CHORD|localhost:1200|-56]
+- STANJE NA CLOUD-u
+1:subDir\subDir2 -- [subDir\subDir2 {[subDir\subDir2\subDir2-File1.txt, subDir\subDir2\subDir2-File2.txt]}] - inside node: -50
+2:subDir\subDir2\subDir2-File1.txt -- [subDir\subDir2\subDir2-File1.txt] - inside node: -50
+
+
+17:43:43 - Sending PING message to Predecessor[-59|localhost:1300|19|Pred|PING|localhost:1400|-62]
+17:43:43 - Sending PING message to Successor[-59|localhost:1300|20|Suc|PING|localhost:1200|-56]
+17:43:43 - Got message [-62|localhost:1400|9||UPDATE_CHORD|localhost:1300|-59]
+17:43:43 - File subDir\subDir2\subDir2-File2.txt stored successfully.
+17:43:43 - Sending inform message [-59|localhost:1300|21||UPDATE_CHORD|localhost:1200|-56]
+- STANJE NA CLOUD-u
+1:subDir\subDir2 -- [subDir\subDir2 {[subDir\subDir2\subDir2-File1.txt, subDir\subDir2\subDir2-File2.txt]}] - inside node: -50
+2:subDir\subDir2\subDir2-File1.txt -- [subDir\subDir2\subDir2-File1.txt] - inside node: -50
+3:subDir\subDir2\subDir2-File2.txt -- [subDir\subDir2\subDir2-File2.txt] - inside node: -50
+
+
+17:43:43 - Got message [-62|localhost:1400|12||TOKEN|localhost:1300|-59]
+17:43:43 - Got message [-62|localhost:1400|11||UPDATE_CHORD|localhost:1300|-59]
+17:43:43 - File subDir\subDir1-File1.txt stored successfully.
+17:43:43 - Sending inform message [-59|localhost:1300|23||UPDATE_CHORD|localhost:1200|-56]
+- STANJE NA CLOUD-u
+1:subDir\subDir1-File1.txt -- [subDir\subDir1-File1.txt] - inside node: -50
+2:subDir\subDir2 -- [subDir\subDir2 {[subDir\subDir2\subDir2-File1.txt, subDir\subDir2\subDir2-File2.txt]}] - inside node: -50
+3:subDir\subDir2\subDir2-File1.txt -- [subDir\subDir2\subDir2-File1.txt] - inside node: -50
+4:subDir\subDir2\subDir2-File2.txt -- [subDir\subDir2\subDir2-File2.txt] - inside node: -50
+
+
+17:43:43 - Sending message [-59|localhost:1300|19|Pred|PING|localhost:1400|-62]
+17:43:44 - Sending message [-59|localhost:1300|17||UPDATE_CHORD|localhost:1200|-56]
+17:43:44 - Got message [-62|localhost:1400|13||UPDATE_CHORD|localhost:1300|-59]
+17:43:44 - File subDir stored successfully.
+17:43:44 - Sending inform message [-59|localhost:1300|24||UPDATE_CHORD|localhost:1200|-56]
+- STANJE NA CLOUD-u
+1:subDir\subDir1-File1.txt -- [subDir\subDir1-File1.txt] - inside node: -50
+2:subDir\subDir2 -- [subDir\subDir2 {[subDir\subDir2\subDir2-File1.txt, subDir\subDir2\subDir2-File2.txt]}] - inside node: -50
+3:subDir -- [subDir {[subDir\subDir1-File1.txt, subDir\subDir2]}] - inside node: -50
+4:subDir\subDir2\subDir2-File1.txt -- [subDir\subDir2\subDir2-File1.txt] - inside node: -50
+5:subDir\subDir2\subDir2-File2.txt -- [subDir\subDir2\subDir2-File2.txt] - inside node: -50
+
+
+17:43:44 - Sending message [-59|localhost:1300|21||UPDATE_CHORD|localhost:1200|-56]
+17:43:44 - Sending message [-59|localhost:1300|18||UPDATE_CHORD|localhost:1200|-56]
+17:43:44 - Sending PING message to Predecessor after WEAK_TIMEOUT[-59|localhost:1300|19|Pred|PING|localhost:1400|-62]
+17:43:44 - Got message [-62|localhost:1400|14|Pred|PONG|localhost:1300|-59]
+17:43:44 - Sending message [-59|localhost:1300|22||TOKEN|localhost:1200|-56]
+17:43:44 - Sending message [-59|localhost:1300|20|Suc|PING|localhost:1200|-56]
+17:43:44 - Sending message [-59|localhost:1300|24||UPDATE_CHORD|localhost:1200|-56]
+17:43:45 - Sending message [-59|localhost:1300|23||UPDATE_CHORD|localhost:1200|-56]
+17:43:45 - Got message [-56|localhost:1200|29|Suc|PONG|localhost:1300|-59]
+17:43:45 - Sending message [-59|localhost:1300|19|Pred|PING|localhost:1400|-62]
+17:43:46 - Got message [-62|localhost:1400|15|Pred|PONG|localhost:1300|-59]
+17:43:47 - Got message [-56|localhost:1200|33|Pred|PING|localhost:1300|-59]
+17:43:47 - Sending PONG message [-59|localhost:1300|25|Pred|PONG|localhost:1200|-56]
+17:43:48 - Got message [-56|localhost:1200|33|Pred|PING|localhost:1300|-59]
+17:43:48 - Sending PONG message [-59|localhost:1300|26|Pred|PONG|localhost:1200|-56]
+17:43:48 - Sending message [-59|localhost:1300|25|Pred|PONG|localhost:1200|-56]
+17:43:48 - Got message [-62|localhost:1400|16||TOKEN|localhost:1300|-59]
+17:43:49 - Sending message [-59|localhost:1300|27||TOKEN|localhost:1200|-56]
+17:43:49 - Got message [-62|localhost:1400|18|Suc|PING|localhost:1300|-59]
+17:43:49 - Sending PONG message [-59|localhost:1300|28|Suc|PONG|localhost:1400|-62]
+17:43:49 - Sending message [-59|localhost:1300|26|Pred|PONG|localhost:1200|-56]
+17:43:49 - Got message [-62|localhost:1400|19||UPDATE_CHORD|localhost:1300|-59]
+17:43:49 - File root1File.txt stored successfully.
+17:43:49 - Sending inform message [-59|localhost:1300|29||UPDATE_CHORD|localhost:1200|-56]
+- STANJE NA CLOUD-u
+1:subDir\subDir1-File1.txt -- [subDir\subDir1-File1.txt] - inside node: -50
+2:subDir\subDir2 -- [subDir\subDir2 {[subDir\subDir2\subDir2-File1.txt, subDir\subDir2\subDir2-File2.txt]}] - inside node: -50
+3:subDir -- [subDir {[subDir\subDir1-File1.txt, subDir\subDir2]}] - inside node: -50
+4:root1File.txt -- [root1File.txt] - inside node: -53
+5:subDir\subDir2\subDir2-File1.txt -- [subDir\subDir2\subDir2-File1.txt] - inside node: -50
+6:subDir\subDir2\subDir2-File2.txt -- [subDir\subDir2\subDir2-File2.txt] - inside node: -50
+
+
+17:43:50 - Sending message [-59|localhost:1300|28|Suc|PONG|localhost:1400|-62]
+17:43:50 - Sending message [-59|localhost:1300|29||UPDATE_CHORD|localhost:1200|-56]
+17:43:50 - Pausing for 10000 ms
+17:43:51 - Got message [-50|localhost:1000|20||PULL_RESPONSE|localhost:1300|-59]
+17:43:52 - Sending message [-50|localhost:1000|30||PULL_RESPONSE|localhost:1200|-56]
+17:43:52 - Got message [-50|localhost:1000|21||PULL_RESPONSE|localhost:1300|-59]
+17:43:52 - Got message [-62|localhost:1400|23||TOKEN|localhost:1300|-59]
+17:43:53 - Got message [-50|localhost:1000|22||PULL_RESPONSE|localhost:1300|-59]
+17:43:53 - Sending message [-50|localhost:1000|31||PULL_RESPONSE|localhost:1200|-56]
+17:43:54 - Sending message [-50|localhost:1000|33||PULL_RESPONSE|localhost:1200|-56]
+17:43:54 - Sending message [-59|localhost:1300|32||TOKEN|localhost:1200|-56]
+17:43:54 - Sending PING message to Predecessor[-59|localhost:1300|34|Pred|PING|localhost:1400|-62]
+17:43:54 - Sending PING message to Successor[-59|localhost:1300|35|Suc|PING|localhost:1200|-56]
+17:43:55 - Sending message [-59|localhost:1300|35|Suc|PING|localhost:1200|-56]
+17:43:55 - Sending PING message to Predecessor after WEAK_TIMEOUT[-59|localhost:1300|34|Pred|PING|localhost:1400|-62]
+17:43:55 - Sending message [-59|localhost:1300|34|Pred|PING|localhost:1400|-62]
+17:43:55 - Got message [-56|localhost:1200|42|Suc|PONG|localhost:1300|-59]
+17:43:56 - Got message [-62|localhost:1400|25|Pred|PONG|localhost:1300|-59]
+17:43:56 - Sending message [-59|localhost:1300|34|Pred|PING|localhost:1400|-62]
+17:43:57 - Got message [-62|localhost:1400|27||TOKEN|localhost:1300|-59]
+17:43:58 - Got message [-62|localhost:1400|26|Pred|PONG|localhost:1300|-59]
+17:43:58 - Sending message [-59|localhost:1300|36||TOKEN|localhost:1200|-56]
+17:43:59 - Got message [-62|localhost:1400|29|Suc|PING|localhost:1300|-59]
+17:44:00 - Sending PONG message [-59|localhost:1300|37|Suc|PONG|localhost:1400|-62]
+17:44:00 - Stopping...
+17:44:01 - Sending message [-59|localhost:1300|37|Suc|PONG|localhost:1400|-62]
